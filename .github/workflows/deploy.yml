@@ -1,5 +1,6 @@
 name: Deploy
-
+env:
+    VITE_REACT_APP_NASA_API_KEY: ${{ secrets.VITE_REACT_APP_NASA_API_KEY }}
 on:
   push:
     branches:
